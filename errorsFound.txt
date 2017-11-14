@@ -1,0 +1,3 @@
+I have found an error in program 1. In overall score function, the first if/else statement finds the largest value for score1 and score2. This is wrong. We need to find the smallest value. (See changes in the code)
+
+In program 2, I have found 2 mistakes. In the overall score function, the ELSE statement makes s1 and s2 = 99. This is wrong. We need to find out which numbers match and make sure not to use both of those. (See changes in the code) The second mistake is that we were checking if String args[] is NULL. This is stupid. All we need to do is check args.length. I deleted that in the code.
