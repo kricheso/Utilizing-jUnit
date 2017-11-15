@@ -60,12 +60,9 @@ public int overallScore()
            s1 = score1;
            s2 = score2;
        }
-       else if(score2 == score3){
+       else {
            s1 = score1;
            s2 = score2;
-       }
-       else{
-           return -1;
        }
        
        
